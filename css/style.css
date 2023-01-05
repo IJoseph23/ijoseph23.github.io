@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika Negative:wght@700&display=swap");
+
+html {
+  margin: 1px;
+}
+.t {
+  background: rgba(0, 0, 0, 0.185);
+  color: white;
+  font-size: 50px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  border-radius: 20px;
+}
+body {
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+.introduction {
+  margin-top: 20px;
+}
+.h {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+i {
+  margin: 5px;
+}
+i:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.158),
+    rgba(128, 0, 128, 0.219)
+  );
+  text-align: center;
+}
