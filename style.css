@@ -28,3 +28,9 @@ h1 {
   margin-top: 300px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 500px;
+  }
+}
