@@ -43,3 +43,20 @@ i:hover {
   );
   text-align: center;
 }
+.invisible {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+.titleAnimation {
+  animation: slideInDown 0.7s;
+}
+.headersAnimation {
+  animation: slideInLeft 1s;
+}
+.paragraphsAnimation {
+  animation: fadeInRight 0.5s;
+}
+.copyrightAnimation {
+  animation: fadeInUp 1s;
+}
