@@ -60,3 +60,14 @@ i:hover {
 .copyrightAnimation {
   animation: fadeInUp 1s;
 }
+@keyframes picHoverAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.picAnimation {
+  animation: picHoverAnimation 1s;
+}

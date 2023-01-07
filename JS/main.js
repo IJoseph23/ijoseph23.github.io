@@ -5,6 +5,8 @@ const aboutH = document.getElementById("aboutH");
 const projectsH = document.getElementById("projectsH");
 const interestsH = document.getElementById("interestsH");
 const copyright = document.getElementById("CR");
+const pic = document.getElementById("githubIcon");
+const delay = 1000;
 
 introductionH.classList.add("invisible");
 educationH.classList.add("invisible");
@@ -59,4 +61,11 @@ projectsH.addEventListener("animationend", () => {
 interestsH.addEventListener("animationend", () => {
   document.getElementById(paragraphs[4]).classList.remove("invisible");
   document.getElementById(paragraphs[4]).classList.add("paragraphsAnimation");
+});
+
+pic.addEventListener("mouseenter", () => {
+  pic.classList.add("picAnimation");
+});
+pic.addEventListener("mouseleave", () => {
+  pic.classList.remove("picAnimation");
 });
